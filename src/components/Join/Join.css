@@ -1,0 +1,50 @@
+.Join {
+  display: flex;
+  padding: 0, 2rem;
+  gap: 10rem;
+}
+.left-j {
+  flex: 3;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+.left-j>hr{
+  background-color: orange;
+  margin-right: 40rem;
+  width:50%;
+  height: 5px;
+}
+.left-j > div {
+  display: flex;
+  gap: 1rem;
+}
+.right.j {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.email-container {
+  display: flex;
+  gap: 3rem;
+  background-color: grey;
+  padding: 1;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+.email-container > input {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: lightgray;
+}
+::placeholder {
+  color: lightgray;
+}
+.btn {
+  background-color: orange;
+}
